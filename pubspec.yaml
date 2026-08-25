@@ -1,0 +1,37 @@
+name: open_scripture_voice
+description: >-
+  Free, open-source, offline-first Bible listening app for Android.
+  Architecture B: Bible text ships in the app; audio is synthesized
+  on-device at listen time. No backend, no accounts, no analytics.
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # On-device TTS runtime (Piper / Kokoro / VITS via ONNX Runtime).
+  sherpa_onnx: ^0.7.0
+  # Local database.
+  sqflite: ^2.3.0
+  path: ^1.9.0
+  # Gapless queued playback + background/lock-screen controls.
+  just_audio: ^0.9.40
+  audio_service: ^0.18.15
+  # Local file storage for voice packs and the synthesis cache.
+  path_provider: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  test: ^1.25.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/bible/web/
+    - assets/voices/piper-en-default/
+    - assets/lexicon/biblical_names.tsv

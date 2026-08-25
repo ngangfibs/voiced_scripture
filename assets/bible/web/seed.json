@@ -1,0 +1,940 @@
+{
+ "books": [
+  {
+   "id": 1,
+   "testament": "OT",
+   "name": "Genesis",
+   "abbrev": "Gen",
+   "book_order": 1,
+   "chapter_count": 50
+  },
+  {
+   "id": 2,
+   "testament": "OT",
+   "name": "Exodus",
+   "abbrev": "Exod",
+   "book_order": 2,
+   "chapter_count": 40
+  },
+  {
+   "id": 3,
+   "testament": "OT",
+   "name": "Leviticus",
+   "abbrev": "Lev",
+   "book_order": 3,
+   "chapter_count": 27
+  },
+  {
+   "id": 4,
+   "testament": "OT",
+   "name": "Numbers",
+   "abbrev": "Num",
+   "book_order": 4,
+   "chapter_count": 36
+  },
+  {
+   "id": 5,
+   "testament": "OT",
+   "name": "Deuteronomy",
+   "abbrev": "Deut",
+   "book_order": 5,
+   "chapter_count": 34
+  },
+  {
+   "id": 6,
+   "testament": "OT",
+   "name": "Joshua",
+   "abbrev": "Josh",
+   "book_order": 6,
+   "chapter_count": 24
+  },
+  {
+   "id": 7,
+   "testament": "OT",
+   "name": "Judges",
+   "abbrev": "Judg",
+   "book_order": 7,
+   "chapter_count": 21
+  },
+  {
+   "id": 8,
+   "testament": "OT",
+   "name": "Ruth",
+   "abbrev": "Ruth",
+   "book_order": 8,
+   "chapter_count": 4
+  },
+  {
+   "id": 9,
+   "testament": "OT",
+   "name": "1 Samuel",
+   "abbrev": "1Sam",
+   "book_order": 9,
+   "chapter_count": 31
+  },
+  {
+   "id": 10,
+   "testament": "OT",
+   "name": "2 Samuel",
+   "abbrev": "2Sam",
+   "book_order": 10,
+   "chapter_count": 24
+  },
+  {
+   "id": 11,
+   "testament": "OT",
+   "name": "1 Kings",
+   "abbrev": "1Kgs",
+   "book_order": 11,
+   "chapter_count": 22
+  },
+  {
+   "id": 12,
+   "testament": "OT",
+   "name": "2 Kings",
+   "abbrev": "2Kgs",
+   "book_order": 12,
+   "chapter_count": 25
+  },
+  {
+   "id": 13,
+   "testament": "OT",
+   "name": "1 Chronicles",
+   "abbrev": "1Chr",
+   "book_order": 13,
+   "chapter_count": 29
+  },
+  {
+   "id": 14,
+   "testament": "OT",
+   "name": "2 Chronicles",
+   "abbrev": "2Chr",
+   "book_order": 14,
+   "chapter_count": 36
+  },
+  {
+   "id": 15,
+   "testament": "OT",
+   "name": "Ezra",
+   "abbrev": "Ezra",
+   "book_order": 15,
+   "chapter_count": 10
+  },
+  {
+   "id": 16,
+   "testament": "OT",
+   "name": "Nehemiah",
+   "abbrev": "Neh",
+   "book_order": 16,
+   "chapter_count": 13
+  },
+  {
+   "id": 17,
+   "testament": "OT",
+   "name": "Esther",
+   "abbrev": "Esth",
+   "book_order": 17,
+   "chapter_count": 10
+  },
+  {
+   "id": 18,
+   "testament": "OT",
+   "name": "Job",
+   "abbrev": "Job",
+   "book_order": 18,
+   "chapter_count": 42
+  },
+  {
+   "id": 19,
+   "testament": "OT",
+   "name": "Psalms",
+   "abbrev": "Ps",
+   "book_order": 19,
+   "chapter_count": 150
+  },
+  {
+   "id": 20,
+   "testament": "OT",
+   "name": "Proverbs",
+   "abbrev": "Prov",
+   "book_order": 20,
+   "chapter_count": 31
+  },
+  {
+   "id": 21,
+   "testament": "OT",
+   "name": "Ecclesiastes",
+   "abbrev": "Eccl",
+   "book_order": 21,
+   "chapter_count": 12
+  },
+  {
+   "id": 22,
+   "testament": "OT",
+   "name": "Song of Solomon",
+   "abbrev": "Song",
+   "book_order": 22,
+   "chapter_count": 8
+  },
+  {
+   "id": 23,
+   "testament": "OT",
+   "name": "Isaiah",
+   "abbrev": "Isa",
+   "book_order": 23,
+   "chapter_count": 66
+  },
+  {
+   "id": 24,
+   "testament": "OT",
+   "name": "Jeremiah",
+   "abbrev": "Jer",
+   "book_order": 24,
+   "chapter_count": 52
+  },
+  {
+   "id": 25,
+   "testament": "OT",
+   "name": "Lamentations",
+   "abbrev": "Lam",
+   "book_order": 25,
+   "chapter_count": 5
+  },
+  {
+   "id": 26,
+   "testament": "OT",
+   "name": "Ezekiel",
+   "abbrev": "Ezek",
+   "book_order": 26,
+   "chapter_count": 48
+  },
+  {
+   "id": 27,
+   "testament": "OT",
+   "name": "Daniel",
+   "abbrev": "Dan",
+   "book_order": 27,
+   "chapter_count": 12
+  },
+  {
+   "id": 28,
+   "testament": "OT",
+   "name": "Hosea",
+   "abbrev": "Hos",
+   "book_order": 28,
+   "chapter_count": 14
+  },
+  {
+   "id": 29,
+   "testament": "OT",
+   "name": "Joel",
+   "abbrev": "Joel",
+   "book_order": 29,
+   "chapter_count": 3
+  },
+  {
+   "id": 30,
+   "testament": "OT",
+   "name": "Amos",
+   "abbrev": "Amos",
+   "book_order": 30,
+   "chapter_count": 9
+  },
+  {
+   "id": 31,
+   "testament": "OT",
+   "name": "Obadiah",
+   "abbrev": "Obad",
+   "book_order": 31,
+   "chapter_count": 1
+  },
+  {
+   "id": 32,
+   "testament": "OT",
+   "name": "Jonah",
+   "abbrev": "Jonah",
+   "book_order": 32,
+   "chapter_count": 4
+  },
+  {
+   "id": 33,
+   "testament": "OT",
+   "name": "Micah",
+   "abbrev": "Mic",
+   "book_order": 33,
+   "chapter_count": 7
+  },
+  {
+   "id": 34,
+   "testament": "OT",
+   "name": "Nahum",
+   "abbrev": "Nah",
+   "book_order": 34,
+   "chapter_count": 3
+  },
+  {
+   "id": 35,
+   "testament": "OT",
+   "name": "Habakkuk",
+   "abbrev": "Hab",
+   "book_order": 35,
+   "chapter_count": 3
+  },
+  {
+   "id": 36,
+   "testament": "OT",
+   "name": "Zephaniah",
+   "abbrev": "Zeph",
+   "book_order": 36,
+   "chapter_count": 3
+  },
+  {
+   "id": 37,
+   "testament": "OT",
+   "name": "Haggai",
+   "abbrev": "Hag",
+   "book_order": 37,
+   "chapter_count": 2
+  },
+  {
+   "id": 38,
+   "testament": "OT",
+   "name": "Zechariah",
+   "abbrev": "Zech",
+   "book_order": 38,
+   "chapter_count": 14
+  },
+  {
+   "id": 39,
+   "testament": "OT",
+   "name": "Malachi",
+   "abbrev": "Mal",
+   "book_order": 39,
+   "chapter_count": 4
+  },
+  {
+   "id": 40,
+   "testament": "NT",
+   "name": "Matthew",
+   "abbrev": "Matt",
+   "book_order": 40,
+   "chapter_count": 28
+  },
+  {
+   "id": 41,
+   "testament": "NT",
+   "name": "Mark",
+   "abbrev": "Mark",
+   "book_order": 41,
+   "chapter_count": 16
+  },
+  {
+   "id": 42,
+   "testament": "NT",
+   "name": "Luke",
+   "abbrev": "Luke",
+   "book_order": 42,
+   "chapter_count": 24
+  },
+  {
+   "id": 43,
+   "testament": "NT",
+   "name": "John",
+   "abbrev": "John",
+   "book_order": 43,
+   "chapter_count": 21
+  },
+  {
+   "id": 44,
+   "testament": "NT",
+   "name": "Acts",
+   "abbrev": "Acts",
+   "book_order": 44,
+   "chapter_count": 28
+  },
+  {
+   "id": 45,
+   "testament": "NT",
+   "name": "Romans",
+   "abbrev": "Rom",
+   "book_order": 45,
+   "chapter_count": 16
+  },
+  {
+   "id": 46,
+   "testament": "NT",
+   "name": "1 Corinthians",
+   "abbrev": "1Cor",
+   "book_order": 46,
+   "chapter_count": 16
+  },
+  {
+   "id": 47,
+   "testament": "NT",
+   "name": "2 Corinthians",
+   "abbrev": "2Cor",
+   "book_order": 47,
+   "chapter_count": 13
+  },
+  {
+   "id": 48,
+   "testament": "NT",
+   "name": "Galatians",
+   "abbrev": "Gal",
+   "book_order": 48,
+   "chapter_count": 6
+  },
+  {
+   "id": 49,
+   "testament": "NT",
+   "name": "Ephesians",
+   "abbrev": "Eph",
+   "book_order": 49,
+   "chapter_count": 6
+  },
+  {
+   "id": 50,
+   "testament": "NT",
+   "name": "Philippians",
+   "abbrev": "Phil",
+   "book_order": 50,
+   "chapter_count": 4
+  },
+  {
+   "id": 51,
+   "testament": "NT",
+   "name": "Colossians",
+   "abbrev": "Col",
+   "book_order": 51,
+   "chapter_count": 4
+  },
+  {
+   "id": 52,
+   "testament": "NT",
+   "name": "1 Thessalonians",
+   "abbrev": "1Thess",
+   "book_order": 52,
+   "chapter_count": 5
+  },
+  {
+   "id": 53,
+   "testament": "NT",
+   "name": "2 Thessalonians",
+   "abbrev": "2Thess",
+   "book_order": 53,
+   "chapter_count": 3
+  },
+  {
+   "id": 54,
+   "testament": "NT",
+   "name": "1 Timothy",
+   "abbrev": "1Tim",
+   "book_order": 54,
+   "chapter_count": 6
+  },
+  {
+   "id": 55,
+   "testament": "NT",
+   "name": "2 Timothy",
+   "abbrev": "2Tim",
+   "book_order": 55,
+   "chapter_count": 4
+  },
+  {
+   "id": 56,
+   "testament": "NT",
+   "name": "Titus",
+   "abbrev": "Titus",
+   "book_order": 56,
+   "chapter_count": 3
+  },
+  {
+   "id": 57,
+   "testament": "NT",
+   "name": "Philemon",
+   "abbrev": "Phlm",
+   "book_order": 57,
+   "chapter_count": 1
+  },
+  {
+   "id": 58,
+   "testament": "NT",
+   "name": "Hebrews",
+   "abbrev": "Heb",
+   "book_order": 58,
+   "chapter_count": 13
+  },
+  {
+   "id": 59,
+   "testament": "NT",
+   "name": "James",
+   "abbrev": "Jas",
+   "book_order": 59,
+   "chapter_count": 5
+  },
+  {
+   "id": 60,
+   "testament": "NT",
+   "name": "1 Peter",
+   "abbrev": "1Pet",
+   "book_order": 60,
+   "chapter_count": 5
+  },
+  {
+   "id": 61,
+   "testament": "NT",
+   "name": "2 Peter",
+   "abbrev": "2Pet",
+   "book_order": 61,
+   "chapter_count": 3
+  },
+  {
+   "id": 62,
+   "testament": "NT",
+   "name": "1 John",
+   "abbrev": "1John",
+   "book_order": 62,
+   "chapter_count": 5
+  },
+  {
+   "id": 63,
+   "testament": "NT",
+   "name": "2 John",
+   "abbrev": "2John",
+   "book_order": 63,
+   "chapter_count": 1
+  },
+  {
+   "id": 64,
+   "testament": "NT",
+   "name": "3 John",
+   "abbrev": "3John",
+   "book_order": 64,
+   "chapter_count": 1
+  },
+  {
+   "id": 65,
+   "testament": "NT",
+   "name": "Jude",
+   "abbrev": "Jude",
+   "book_order": 65,
+   "chapter_count": 1
+  },
+  {
+   "id": 66,
+   "testament": "NT",
+   "name": "Revelation",
+   "abbrev": "Rev",
+   "book_order": 66,
+   "chapter_count": 22
+  }
+ ],
+ "verses": [
+  {
+   "id": 1,
+   "book_id": 1,
+   "chapter": 1,
+   "verse": 1,
+   "text": "In the beginning, God created the heavens and the earth."
+  },
+  {
+   "id": 2,
+   "book_id": 1,
+   "chapter": 1,
+   "verse": 2,
+   "text": "The earth was formless and empty. Darkness was on the surface of the deep and God's Spirit was hovering over the surface of the waters."
+  },
+  {
+   "id": 3,
+   "book_id": 1,
+   "chapter": 1,
+   "verse": 3,
+   "text": "God said, \"Let there be light,\" and there was light."
+  },
+  {
+   "id": 4,
+   "book_id": 1,
+   "chapter": 1,
+   "verse": 4,
+   "text": "God saw the light, and saw that it was good. God divided the light from the darkness."
+  },
+  {
+   "id": 5,
+   "book_id": 1,
+   "chapter": 1,
+   "verse": 5,
+   "text": "God called the light \"day\", and the darkness he called \"night\". There was evening and there was morning, the first day."
+  },
+  {
+   "id": 6,
+   "book_id": 1,
+   "chapter": 1,
+   "verse": 6,
+   "text": "God said, \"Let there be an expanse in the middle of the waters, and let it divide the waters from the waters.\""
+  },
+  {
+   "id": 7,
+   "book_id": 1,
+   "chapter": 1,
+   "verse": 7,
+   "text": "God made the expanse, and divided the waters which were under the expanse from the waters which were above the expanse; and it was so."
+  },
+  {
+   "id": 8,
+   "book_id": 1,
+   "chapter": 1,
+   "verse": 8,
+   "text": "God called the expanse \"sky\". There was evening and there was morning, a second day."
+  },
+  {
+   "id": 9,
+   "book_id": 1,
+   "chapter": 1,
+   "verse": 9,
+   "text": "God said, \"Let the waters under the sky be gathered together to one place, and let the dry land appear;\" and it was so."
+  },
+  {
+   "id": 10,
+   "book_id": 1,
+   "chapter": 1,
+   "verse": 10,
+   "text": "God called the dry land \"earth\", and the gathering together of the waters he called \"seas\". God saw that it was good."
+  },
+  {
+   "id": 11,
+   "book_id": 1,
+   "chapter": 1,
+   "verse": 11,
+   "text": "God said, \"Let the earth yield grass, herbs yielding seeds, and fruit trees bearing fruit after their kind, with their seeds in it, on the earth;\" and it was so."
+  },
+  {
+   "id": 12,
+   "book_id": 1,
+   "chapter": 1,
+   "verse": 12,
+   "text": "The earth yielded grass, herbs yielding seed after their kind, and trees bearing fruit, with their seeds in it, after their kind; and God saw that it was good."
+  },
+  {
+   "id": 13,
+   "book_id": 1,
+   "chapter": 1,
+   "verse": 13,
+   "text": "There was evening and there was morning, a third day."
+  },
+  {
+   "id": 14,
+   "book_id": 1,
+   "chapter": 1,
+   "verse": 14,
+   "text": "God said, \"Let there be lights in the expanse of the sky to divide the day from the night; and let them be for signs to mark seasons, days, and years;"
+  },
+  {
+   "id": 15,
+   "book_id": 1,
+   "chapter": 1,
+   "verse": 15,
+   "text": "and let them be for lights in the expanse of the sky to give light on the earth;\" and it was so."
+  },
+  {
+   "id": 16,
+   "book_id": 1,
+   "chapter": 1,
+   "verse": 16,
+   "text": "God made the two great lights: the greater light to rule the day, and the lesser light to rule the night. He also made the stars."
+  },
+  {
+   "id": 17,
+   "book_id": 1,
+   "chapter": 1,
+   "verse": 17,
+   "text": "God set them in the expanse of the sky to give light to the earth,"
+  },
+  {
+   "id": 18,
+   "book_id": 1,
+   "chapter": 1,
+   "verse": 18,
+   "text": "and to rule over the day and over the night, and to divide the light from the darkness. God saw that it was good."
+  },
+  {
+   "id": 19,
+   "book_id": 1,
+   "chapter": 1,
+   "verse": 19,
+   "text": "There was evening and there was morning, a fourth day."
+  },
+  {
+   "id": 20,
+   "book_id": 1,
+   "chapter": 1,
+   "verse": 20,
+   "text": "God said, \"Let the waters abound with living creatures, and let birds fly above the earth in the open expanse of the sky.\""
+  },
+  {
+   "id": 21,
+   "book_id": 1,
+   "chapter": 1,
+   "verse": 21,
+   "text": "God created the large sea creatures and every living creature that moves, with which the waters swarmed, after their kind, and every winged bird after its kind. God saw that it was good."
+  },
+  {
+   "id": 22,
+   "book_id": 1,
+   "chapter": 1,
+   "verse": 22,
+   "text": "God blessed them, saying, \"Be fruitful, and multiply, and fill the waters in the seas, and let birds multiply on the earth.\""
+  },
+  {
+   "id": 23,
+   "book_id": 1,
+   "chapter": 1,
+   "verse": 23,
+   "text": "There was evening and there was morning, a fifth day."
+  },
+  {
+   "id": 24,
+   "book_id": 1,
+   "chapter": 1,
+   "verse": 24,
+   "text": "God said, \"Let the earth produce living creatures after their kind, livestock, creeping things, and animals of the earth after their kind;\" and it was so."
+  },
+  {
+   "id": 25,
+   "book_id": 1,
+   "chapter": 1,
+   "verse": 25,
+   "text": "God made the animals of the earth after their kind, and the livestock after their kind, and everything that creeps on the ground after its kind. God saw that it was good."
+  },
+  {
+   "id": 26,
+   "book_id": 1,
+   "chapter": 1,
+   "verse": 26,
+   "text": "God said, \"Let's make man in our image, after our likeness. Let them have dominion over the fish of the sea, and over the birds of the sky, and over the livestock, and over all the earth, and over every creeping thing that creeps on the earth.\""
+  },
+  {
+   "id": 27,
+   "book_id": 1,
+   "chapter": 1,
+   "verse": 27,
+   "text": "God created man in his own image. In God's image he created him; male and female he created them."
+  },
+  {
+   "id": 28,
+   "book_id": 1,
+   "chapter": 1,
+   "verse": 28,
+   "text": "God blessed them. God said to them, \"Be fruitful, multiply, fill the earth, and subdue it. Have dominion over the fish of the sea, over the birds of the sky, and over every living thing that moves on the earth.\""
+  },
+  {
+   "id": 29,
+   "book_id": 1,
+   "chapter": 1,
+   "verse": 29,
+   "text": "God said, \"Behold, I have given you every herb yielding seed, which is on the surface of all the earth, and every tree, which bears fruit yielding seed. It will be your food."
+  },
+  {
+   "id": 30,
+   "book_id": 1,
+   "chapter": 1,
+   "verse": 30,
+   "text": "To every animal of the earth, and to every bird of the sky, and to everything that creeps on the earth, in which there is life, I have given every green herb for food;\" and it was so."
+  },
+  {
+   "id": 31,
+   "book_id": 1,
+   "chapter": 1,
+   "verse": 31,
+   "text": "God saw everything that he had made, and, behold, it was very good. There was evening and there was morning, the sixth day."
+  },
+  {
+   "id": 32,
+   "book_id": 19,
+   "chapter": 23,
+   "verse": 1,
+   "text": "Yahweh is my shepherd; I shall lack nothing."
+  },
+  {
+   "id": 33,
+   "book_id": 19,
+   "chapter": 23,
+   "verse": 2,
+   "text": "He makes me lie down in green pastures. He leads me beside still waters."
+  },
+  {
+   "id": 34,
+   "book_id": 19,
+   "chapter": 23,
+   "verse": 3,
+   "text": "He restores my soul. He guides me in the paths of righteousness for his name's sake."
+  },
+  {
+   "id": 35,
+   "book_id": 19,
+   "chapter": 23,
+   "verse": 4,
+   "text": "Even though I walk through the valley of the shadow of death, I will fear no evil, for you are with me. Your rod and your staff, they comfort me."
+  },
+  {
+   "id": 36,
+   "book_id": 19,
+   "chapter": 23,
+   "verse": 5,
+   "text": "You prepare a table before me in the presence of my enemies. You anoint my head with oil. My cup runs over."
+  },
+  {
+   "id": 37,
+   "book_id": 19,
+   "chapter": 23,
+   "verse": 6,
+   "text": "Surely goodness and loving kindness shall follow me all the days of my life, and I will dwell in Yahweh's house forever."
+  },
+  {
+   "id": 38,
+   "book_id": 43,
+   "chapter": 3,
+   "verse": 1,
+   "text": "Now there was a man of the Pharisees named Nicodemus, a ruler of the Jews."
+  },
+  {
+   "id": 39,
+   "book_id": 43,
+   "chapter": 3,
+   "verse": 2,
+   "text": "He came to Jesus by night and said to him, \"Rabbi, we know that you are a teacher come from God, for no one can do these signs that you do unless God is with him.\""
+  },
+  {
+   "id": 40,
+   "book_id": 43,
+   "chapter": 3,
+   "verse": 3,
+   "text": "Jesus answered him, \"Most certainly I tell you, unless one is born anew, he can't see God's Kingdom.\""
+  },
+  {
+   "id": 41,
+   "book_id": 43,
+   "chapter": 3,
+   "verse": 4,
+   "text": "Nicodemus said to him, \"How can a man be born when he is old? Can he enter a second time into his mother's womb and be born?\""
+  },
+  {
+   "id": 42,
+   "book_id": 43,
+   "chapter": 3,
+   "verse": 5,
+   "text": "Jesus answered, \"Most certainly I tell you, unless one is born of water and Spirit, he can't enter into God's Kingdom."
+  },
+  {
+   "id": 43,
+   "book_id": 43,
+   "chapter": 3,
+   "verse": 6,
+   "text": "That which is born of the flesh is flesh. That which is born of the Spirit is spirit."
+  },
+  {
+   "id": 44,
+   "book_id": 43,
+   "chapter": 3,
+   "verse": 7,
+   "text": "Don't marvel that I said to you, 'You must be born anew.'"
+  },
+  {
+   "id": 45,
+   "book_id": 43,
+   "chapter": 3,
+   "verse": 8,
+   "text": "The wind blows where it wants to, and you hear its sound, but don't know where it comes from and where it is going. So is everyone who is born of the Spirit.\""
+  },
+  {
+   "id": 46,
+   "book_id": 43,
+   "chapter": 3,
+   "verse": 9,
+   "text": "Nicodemus answered him, \"How can these things be?\""
+  },
+  {
+   "id": 47,
+   "book_id": 43,
+   "chapter": 3,
+   "verse": 10,
+   "text": "Jesus answered him, \"Are you the teacher of Israel, and don't understand these things?"
+  },
+  {
+   "id": 48,
+   "book_id": 43,
+   "chapter": 3,
+   "verse": 11,
+   "text": "Most certainly I tell you, we speak that which we know and testify of that which we have seen, and you don't receive our witness."
+  },
+  {
+   "id": 49,
+   "book_id": 43,
+   "chapter": 3,
+   "verse": 12,
+   "text": "If I told you earthly things and you don't believe, how will you believe if I tell you heavenly things?"
+  },
+  {
+   "id": 50,
+   "book_id": 43,
+   "chapter": 3,
+   "verse": 13,
+   "text": "No one has ascended into heaven but he who descended out of heaven, the Son of Man, who is in heaven."
+  },
+  {
+   "id": 51,
+   "book_id": 43,
+   "chapter": 3,
+   "verse": 14,
+   "text": "As Moses lifted up the serpent in the wilderness, even so must the Son of Man be lifted up,"
+  },
+  {
+   "id": 52,
+   "book_id": 43,
+   "chapter": 3,
+   "verse": 15,
+   "text": "that whoever believes in him should not perish, but have eternal life."
+  },
+  {
+   "id": 53,
+   "book_id": 43,
+   "chapter": 3,
+   "verse": 16,
+   "text": "For God so loved the world, that he gave his only born Son, that whoever believes in him should not perish, but have eternal life."
+  },
+  {
+   "id": 54,
+   "book_id": 43,
+   "chapter": 3,
+   "verse": 17,
+   "text": "For God didn't send his Son into the world to judge the world, but that the world should be saved through him."
+  },
+  {
+   "id": 55,
+   "book_id": 43,
+   "chapter": 3,
+   "verse": 18,
+   "text": "He who believes in him is not judged. He who doesn't believe has been judged already, because he has not believed in the name of the only born Son of God."
+  },
+  {
+   "id": 56,
+   "book_id": 43,
+   "chapter": 3,
+   "verse": 19,
+   "text": "This is the judgment, that the light has come into the world, and men loved the darkness rather than the light, for their works were evil."
+  },
+  {
+   "id": 57,
+   "book_id": 43,
+   "chapter": 3,
+   "verse": 20,
+   "text": "For everyone who does evil hates the light and doesn't come to the light, lest his works would be exposed."
+  },
+  {
+   "id": 58,
+   "book_id": 43,
+   "chapter": 3,
+   "verse": 21,
+   "text": "But he who does the truth comes to the light, that his works may be revealed, that they have been done in God.\""
+  }
+ ]
+}
