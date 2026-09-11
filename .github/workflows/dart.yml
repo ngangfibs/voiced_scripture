@@ -33,3 +33,33 @@ jobs:
 
       - name: Run tests
         run: flutter test
+
+      # --- APK build -------------------------------------------------------
+      # The repo intentionally has no android/ scaffold committed (see
+      # README), so CI generates it on the fly. `flutter create .` adds the
+      # platform folders without touching lib/ or pubspec.yaml.
+      - name: Generate Android scaffold
+        run: flutter create --platforms android --project-name open_scripture_voice --org dev.openscripture .
+
+      # audio_service/just_audio need minSdk 23+; the template defaults to
+      # flutter.minSdkVersion. Handle both the Groovy and Kotlin DSL files.
+      - name: Set minSdkVersion 23
+        run: |
+          if [ -f android/app/build.gradle.kts ]; then
+            sed -i 's/minSdk = flutter.minSdkVersion/minSdk = 23/' android/app/build.gradle.kts
+          else
+            sed -i 's/minSdkVersion flutter.minSdkVersion/minSdkVersion 23/' android/app/build.gradle
+          fi
+
+      # The default template signs release builds with the debug key, so this
+      # works without any signing setup. Replace with real signing + secrets
+      # before distributing outside testing.
+      - name: Build APK (release)
+        run: flutter build apk --release
+
+      - name: Upload APK artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: open-scripture-voice-apk
+          path: build/app/outputs/flutter-apk/app-release.apk
+          retention-days: 14
