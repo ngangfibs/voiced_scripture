@@ -91,7 +91,8 @@ class _ListeningScreenState extends State<ListeningScreen> {
                     value: pos.inMilliseconds
                         .clamp(0, total.inMilliseconds)
                         .toDouble(),
-                    max: total.inMilliseconds.toDouble().clamp(1, 1 << 62),
+                    // int.clamp() returns num; Slider.max requires double.
+                    max: total.inMilliseconds.clamp(1, 1 << 62).toDouble(),
                     onChanged: (v) =>
                         audio.seek(Duration(milliseconds: v.round())),
                   ),

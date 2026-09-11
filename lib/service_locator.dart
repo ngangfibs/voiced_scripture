@@ -233,6 +233,6 @@ class Services {
   }
 }
 
-extension<T> on List<T> {
-  T? get firstOrNull => isEmpty ? null : first;
-}
+// Note: `rows.firstOrNull` above uses the Iterable.firstOrNull extension
+// built into dart:core since Dart 3.0 (SDK floor here is 3.3) — the project
+// previously defined a local copy, removed to avoid shadowing the core one.

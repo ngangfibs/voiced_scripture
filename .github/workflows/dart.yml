@@ -1,7 +1,9 @@
-# This workflow uses actions that are not certified by GitHub.
-# They are provided by a third-party and are governed by
-# separate terms of service, privacy policy, and support
-# documentation.
+# CI for Open Scripture Voice (a Flutter project).
+#
+# Uses subosito/flutter-action to set up the Flutter SDK, then runs the
+# standard quality gate: resolve dependencies, analyze, and test.
+# Note: this is a Flutter app — `dart test` / `dart pub get` alone cannot
+# resolve the `flutter` SDK packages, so all steps use the Flutter tool.
 
 name: Dart
 
@@ -18,13 +20,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # Note: This workflow uses the latest stable version of the Dart SDK.
-      # You can specify other versions if desired, see documentation here:
-      # https://github.com/dart-lang/setup-dart/blob/main/README.md
-      # - uses: dart-lang/setup-dart@v1
       - uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.x'  # or specify your desired version
+          flutter-version: '3.x'  # latest stable 3.x
+          cache: true
 
       - name: Install dependencies
         run: flutter pub get
@@ -34,17 +33,3 @@ jobs:
 
       - name: Run tests
         run: flutter test
-
-      # Uncomment this step to verify the use of 'dart format' on each commit.
-      # - name: Verify formatting
-      #   run: dart format --output=none --set-exit-if-changed .
-
-      # Consider passing '--fatal-infos' for slightly stricter analysis.
-      - name: Analyze project source
-        run: dart analyze
-
-      # Your project will need to have tests in test/ and a dependency on
-      # package:test for this step to succeed. Note that Flutter projects will
-      # want to change this to 'flutter test'.
-      - name: Run tests
-        run: dart test

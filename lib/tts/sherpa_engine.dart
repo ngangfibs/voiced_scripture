@@ -88,7 +88,10 @@ class SherpaEngine implements TtsEngine {
             debug: false,
             provider: 'cpu',
           ),
-          maxNumSentences: 1,
+          // Upstream typo in sherpa_onnx's Dart API ("Senetences") — the
+          // field really is named like this in 1.13.x; the correct spelling
+          // does not compile.
+          maxNumSenetences: 1,
         );
       } else {
         // Piper / VITS-family.
@@ -108,7 +111,8 @@ class SherpaEngine implements TtsEngine {
             debug: false,
             provider: 'cpu',
           ),
-          maxNumSentences: 1,
+          // Upstream typo, see the Kokoro branch above.
+          maxNumSenetences: 1,
         );
       }
 
