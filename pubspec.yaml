@@ -13,7 +13,9 @@ dependencies:
   flutter:
     sdk: flutter
   # On-device TTS runtime (Piper / Kokoro / VITS via ONNX Runtime).
-  sherpa_onnx: ^0.7.0
+  # sherpa_onnx only publishes 1.x; ^0.7.0 never existed and breaks
+  # `flutter pub get` (see CI run #2).
+  sherpa_onnx: ^1.13.0
   # Local database.
   sqflite: ^2.3.0
   path: ^1.9.0
