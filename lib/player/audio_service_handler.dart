@@ -70,12 +70,14 @@ class ScriptureAudioHandler extends BaseAudioHandler
       ],
       playing: player.playing,
       processingState: {
-        ProcessingState.idle: AudioProcessingState.idle,
-        ProcessingState.loading: AudioProcessingState.loading,
-        ProcessingState.buffering: AudioProcessingState.buffering,
-        ProcessingState.ready: AudioProcessingState.ready,
-        ProcessingState.completed: AudioProcessingState.completed,
-      }[player.processingState],
+            ProcessingState.idle: AudioProcessingState.idle,
+            ProcessingState.loading: AudioProcessingState.loading,
+            ProcessingState.buffering: AudioProcessingState.buffering,
+            ProcessingState.ready: AudioProcessingState.ready,
+            ProcessingState.completed: AudioProcessingState.completed,
+          }[player.processingState] ??
+          // Map lookup is nullable; copyWith requires a non-null state.
+          AudioProcessingState.idle,
       updatePosition: player.position,
       bufferedPosition: player.bufferedPosition,
       speed: player.speed,

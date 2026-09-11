@@ -76,6 +76,8 @@ class SherpaEngine implements TtsEngine {
           throw TtsException('Kokoro voice pack is missing voices.bin');
         }
         config = sherpa.OfflineTtsConfig(
+          // OfflineTtsModelConfig has no `tokens` param in 1.13.x — the
+          // tokens path lives on the per-engine config (kokoro/vits).
           model: sherpa.OfflineTtsModelConfig(
             kokoro: sherpa.OfflineTtsKokoroModelConfig(
               model: modelPath,
@@ -83,7 +85,6 @@ class SherpaEngine implements TtsEngine {
               tokens: tokensPath,
               dataDir: espeakDataDir,
             ),
-            tokens: tokensPath,
             numThreads: 2,
             debug: false,
             provider: 'cpu',
@@ -106,7 +107,6 @@ class SherpaEngine implements TtsEngine {
               tokens: tokensPath,
               dataDir: espeakDataDir,
             ),
-            tokens: tokensPath,
             numThreads: 2,
             debug: false,
             provider: 'cpu',
